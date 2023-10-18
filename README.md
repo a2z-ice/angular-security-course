@@ -1,3 +1,12 @@
+# CSRF
+```
+# added followings in app,module.ts
+        HttpClientXsrfModule.withOptions({
+            cookieName: 'XSRF-TOKEN',
+            headerName: 'x-xsrf-token'
+        }),
+```
+
 ## Angular Security MasterClass - Web Security Fundamentals Course
 
 This repository contains the code of the [Angular Security MasterClass - Web Security Fundamentals Course](https://angular-university.io/course/angular-security-course).
