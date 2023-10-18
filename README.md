@@ -1,6 +1,6 @@
 # CSRF
 ```
-# added followings in app,module.ts
+# added followings in app,module.ts line 48 - 51
         HttpClientXsrfModule.withOptions({
             cookieName: 'XSRF-TOKEN',
             headerName: 'x-xsrf-token'
